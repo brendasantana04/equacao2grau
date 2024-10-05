@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Coeficiente a" />
+
+    <EditText
+        android:id="@+id/editTextB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Coeficiente b"
+        android:layout_below="@id/editTextA" />
+
+    <EditText
+        android:id="@+id/editTextC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Coeficiente c"
+        android:layout_below="@id/editTextB" />
+
+    <Button
+        android:id="@+id/buttonCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_below="@id/editTextC"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonCalcular"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
