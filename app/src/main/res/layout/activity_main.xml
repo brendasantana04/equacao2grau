@@ -7,20 +7,20 @@
     <EditText
         android:id="@+id/editTextA"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Coeficiente a" />
 
     <EditText
         android:id="@+id/editTextB"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Coeficiente b"
         android:layout_below="@id/editTextA" />
 
     <EditText
         android:id="@+id/editTextC"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Coeficiente c"
         android:layout_below="@id/editTextB" />
 
@@ -38,5 +38,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/buttonCalcular"
         android:layout_marginTop="16dp" />
-
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="132dp"
+            android:text="BRENDA SANTANA - 1110482313042" />
 </RelativeLayout>
